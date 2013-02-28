@@ -193,7 +193,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.4</version>
 				<configuration>
-					<tagBase>https://github.com/kuntapavankumar/app.git/branches</tagBase>
+					<tagNameFormat>v@{project.version}</tagNameFormat>
 				</configuration>
 
 			</plugin>
